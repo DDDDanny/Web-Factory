@@ -1,0 +1,65 @@
+/**
+ * 手风琴菜单栏相关css
+ */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #629e82;
+}
+
+.main{
+  width: 300px;
+  margin: 100px auto;
+
+}
+
+.main ul{
+  list-style-type: none;
+}
+
+ul li{
+  text-decoration: none;
+  padding: 10px 5px;
+  border-top: 1px solid #68cc93;
+  border-bottom: 1px solid #68cc93;
+  background-color: #fff;
+  position: relative;
+}
+
+#first{
+  border-radius: 5px 5px 0px 0px;
+}
+#last{
+  border-radius: 0px 0px 5px 5px;
+}
+
+span:first-child{
+  margin-left: 3px;
+  margin-right: 10px;
+}
+
+span:last-child{
+  float: right;
+  right: 20px;
+}
+
+.two{
+  display: none;
+  left: 0px;
+}
+
+.two li{
+  background-color: #68cc93;
+  border-bottom: 1px solid #ccc;
+}
+
+.two li a{
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.two li:hover{
+  background-color: #528870;
+}
