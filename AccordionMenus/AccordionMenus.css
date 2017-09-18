@@ -59,7 +59,7 @@ span:last-child{
   color: #fff;
   padding: 0px 10px;
 }
-
+/*改变鼠标经过二级选项卡的样式*/
 .two li:hover{
   background-color: #528870;
 }
