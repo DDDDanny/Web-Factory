@@ -32,7 +32,7 @@ $(document).ready(function() {
     }
     //保证打开的选项卡只有一个
     $(".two").slideUp(400);
-    $(this).next('ul').stop();
+    $(this).next('ul').stop(true);
     $(this).next('ul').slideToggle(400);
   });
 });
