@@ -1,0 +1,64 @@
+/**
+ * 下拉菜单相关css
+ */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #629e82;
+}
+div{
+  height: 100px;
+  margin: 0px auto;
+}
+div ul{
+  width: 606px;
+  margin: 50px auto;
+  list-style-type: none;
+}
+div ul li{
+  float: left;
+  width: 150px;
+  padding: 8px 0px;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  background-color: #fff;
+}
+.my{
+  float: right;
+  margin-right: 10px;
+}
+.pic{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  color: #68cc93;
+}
+ul ul{
+  margin: 0px;
+  width: 150px;
+  top:60px;
+  left: 0px;
+  position: absolute;
+  box-shadow: 1px 1px 30px #406938;
+}
+
+ul ul li{
+  float: none;
+  background-color: #68cc93;
+  color: #fff;
+  border-right: 0px;
+  border-bottom: 1px solid #629e82;
+}
+
+.two{
+  display: none;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: -25px;
+
+}
