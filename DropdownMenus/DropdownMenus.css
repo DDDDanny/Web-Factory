@@ -36,6 +36,7 @@ div ul li{
   top: 50px;
   left: 100px;
   color: #68cc93;
+  z-index: 20;
 }
 ul ul{
   margin: 0px;
@@ -44,6 +45,7 @@ ul ul{
   left: 0px;
   position: absolute;
   box-shadow: 1px 1px 30px #406938;
+  z-index: 20;
 }
 
 ul ul li{
@@ -60,5 +62,9 @@ ul ul li{
   position: absolute;
   left: 0px;
   top: -25px;
+}
 
+.two li:hover{
+  /*background-color: #e9ae6a;*//*黄色*/
+  background-color: #00343f;/*蓝色*/
 }

@@ -41,4 +41,12 @@ $(document).ready(function() {
       dropdown(this);
     }
   });
+
+  //控制箭头颜色
+  $(".dropli li:first-child").mouseenter(function() {
+    $(this).parent('ul').next('span').css('color', '#00343f');
+  });
+  $(".dropli li:first-child").mouseleave(function() {
+    $(this).parent('ul').next('span').css('color', '#68cc93');
+  });
 });
