@@ -31,8 +31,7 @@ $(document).ready(function() {
       $("#last").css('border-radius', '0px 0px 5px 5px');
     }
     //保证打开的选项卡只有一个
-    $(".two").slideUp(400);
-    $(this).next('ul').stop(true);
-    $(this).next('ul').slideToggle(400);
+    $(".two").not($(this).next('ul')).slideUp(300);
+    $(this).next('ul').slideToggle(300);
   });
 });
