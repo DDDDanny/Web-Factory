@@ -70,4 +70,27 @@ a {
       color: #333;
       opacity: .8; }
 
+/*导航栏*/
+.navigation {
+  background-color: #cc6699;
+  padding: 0px 10px; }
+  .navigation ul {
+    list-style-type: none;
+    white-space: nowrap; }
+  .navigation li {
+    float: left;
+    margin: 0 20px 0 0; }
+    .navigation li a {
+      color: #fff;
+      padding: 10px 0 10px 0;
+      text-decoration: none; }
+
+.nav {
+  padding: 10px 0 0 20px;
+  height: 24px;
+  font-size: 1.1em;
+  width: 100%;
+  float: left;
+  text-transform: uppercase; }
+
 /*# sourceMappingURL=mstyle.css.map */
