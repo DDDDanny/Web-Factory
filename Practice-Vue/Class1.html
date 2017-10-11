@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>111</title>
+
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }}</p>
+      <input v-model="message">
+    </div>
+<hr>
+    <div id="app2">
+      <span v-bind:title="message2">
+        鼠标放在上面会有提示哦～o.o
+      </span>
+    </div>
+
+    <div id="app3">
+      <p v-if="seen">你看见我了吗？</p>
+    </div>
+
+    <div id="app4">
+      <ul>
+        <li v-for="todo in list">
+          {{todo.text}}
+        </li>
+      </ul>
+    </div>
+
+    <div id="app5">
+      <p>{{message3}}</p>
+    <button @click="reverseMessage">逆转文本</button>
+    </div>
+    <!-- Js要放在最后加载 -->
+    <script src="vue.js"></script>
+    <script src="Class1.js"></script>
+  </body>
+</html>
