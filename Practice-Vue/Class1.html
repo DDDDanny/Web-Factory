@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>111</title>
+    <script type="text/javascript">
 
+    </script>
   </head>
   <body>
     <div id="app">
@@ -32,6 +34,16 @@
     <div id="app5">
       <p>{{message3}}</p>
     <button @click="reverseMessage">逆转文本</button>
+    </div>
+
+    <div id="app6">
+      <ul>
+        <todo-item v-for="item in list2"
+          v-bind:todo="item"
+          v-bind:key="item.id"
+        >
+        </todo-item>
+      </ul>
     </div>
     <!-- Js要放在最后加载 -->
     <script src="vue.js"></script>

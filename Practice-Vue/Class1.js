@@ -42,3 +42,20 @@ var app5 = new Vue({
     }
   }
 });
+/**
+ * 定义新组件todo-item
+ */
+ Vue.component('todo-item',{
+   props: ['todo'],
+   template: '<li>{{todo.text}}</li>'
+ });
+
+var app6 = new Vue({
+  el: '#app6',
+  data: {
+    list2: [
+      {id: 0, text: '居然可以新建组件'},
+      {id: 1, text: '有点厉害哦'}
+    ]
+  }
+});
