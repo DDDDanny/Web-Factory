@@ -5,7 +5,7 @@
 
 [DropdownMenus][2] 下拉式菜单栏
 
-[Rainbow][3] 仿菜鸟教程
+[Rainbow][3] Rainbow
 
 [1]:https://github.com/DDDDanny/Web-Factory/tree/master/AccordionMenus
 
