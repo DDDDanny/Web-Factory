@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  height: 100px;
+  background-color: #66cccc; }
+
+/**
+ * 未解决自适应问题
+ * 相关组件 logo & nav
+ */
+.row {
+  height: 60px;
+  margin: 20px 30px;
+  position: relative; }
+  .row .col-logo {
+    position: absolute;
+    margin: 10px 10px;
+    width: 280px;
+    height: 40px; }
+    .row .col-logo a {
+      text-decoration: none; }
+      .row .col-logo a p {
+        font-size: 32px;
+        color: #ffffff;
+        text-align: center;
+        padding-right: 10px; }
+  .row .col-nav {
+    position: relative;
+    float: right;
+    margin: 10px 10px;
+    width: 870px;
+    height: 40px; }
+    .row .col-nav ul {
+      list-style-type: none;
+      height: 30px;
+      margin-top: 10px;
+      margin-left: 350px; }
+      .row .col-nav ul li {
+        text-align: center; }
+      .row .col-nav ul a {
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 0px 15px;
+        color: #ffffff; }
