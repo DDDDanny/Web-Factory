@@ -62,7 +62,24 @@ $H-font-color: #ffffff;
         font-size: 18px;
         margin: 0px 15px;
         color: $H-font-color;
-        // border-bottom: 2px solid $H-font-color;
+        position: relative;
+
+        &:before{
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -5px;
+          width: 0;
+          height: 2px;
+          background: #ffffff;
+          transition: all .3s;
+        }
+
+        &:hover:before{
+          width: 100%;
+          left: 0;
+          right: 0;
+        }
       }
     }
 

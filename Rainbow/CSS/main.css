@@ -45,4 +45,18 @@
         text-decoration: none;
         font-size: 18px;
         margin: 0px 15px;
-        color: #ffffff; }
+        color: #ffffff;
+        position: relative; }
+        .row .col-nav ul a:before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -5px;
+          width: 0;
+          height: 2px;
+          background: #ffffff;
+          transition: all .3s; }
+        .row .col-nav ul a:hover:before {
+          width: 100%;
+          left: 0;
+          right: 0; }
