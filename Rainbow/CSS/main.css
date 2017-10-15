@@ -3,9 +3,30 @@
   padding: 0;
   margin: 0; }
 
+body {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute; }
+
 .header {
   height: 100px;
-  background-color: #66cccc; }
+  background-color: #66cccc;
+  width: 100%; }
+
+.context {
+  padding-bottom: 80px; }
+
+/**
+ * 使用position & bottom方法使页脚自适应在页面最底部
+ * http://blog.csdn.net/inuyasha1121/article/details/50787152
+ */
+.footer {
+  height: 80px;
+  background-color: #66cccc;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center; }
 
 /**
  * 未解决自适应问题
@@ -60,3 +81,10 @@
           width: 100%;
           left: 0;
           right: 0; }
+
+.footer-text-box {
+  margin: 0px auto;
+  margin-top: 15px; }
+  .footer-text-box p {
+    color: #ffffff;
+    text-align: center; }
