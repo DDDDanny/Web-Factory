@@ -13,8 +13,27 @@ body {
   background-color: #66cccc;
   width: 100%; }
 
-.context {
-  padding-bottom: 80px; }
+.context .context_row {
+  margin: 0px 180px;
+  height: 796px;
+  padding: 0px 30px;
+  background-color: #adb9be;
+  opacity: 0.2;
+  position: relative; }
+  .context .context_row .search_row {
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+    position: absolute;
+    width: 1230px; }
+    .context .context_row .search_row .search {
+      float: right;
+      right: 0%;
+      top: 50%;
+      height: 34px;
+      margin-top: -17px;
+      padding: auto 0px;
+      width: 450px; }
 
 /**
  * 使用position & bottom方法使页脚自适应在页面最底部
